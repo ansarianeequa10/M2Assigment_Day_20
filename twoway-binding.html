@@ -1,0 +1,9 @@
+<div class="card">
+    <h2>Two-Way Data Binding Demo</h2>
+  
+    <label for="name">Enter your name:</label>
+    <input id="name" type="text" [(ngModel)]="studentName" placeholder="Type your name" />
+  
+    <p class="preview">Hello, {{ studentName || '...' }}!</p>
+  </div>
+  
